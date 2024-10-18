@@ -485,7 +485,7 @@ header {
 /* FOR CONTACTS */
 .contactsContainer {
     width: 100%;
-    height: au;
+    height: auto;
     background-color: #151515;
     display: flex;
     justify-content: space-evenly;
