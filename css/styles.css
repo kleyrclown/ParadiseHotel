@@ -153,11 +153,11 @@ header {
 }
 
 .mainTitle h1 {
-    font-size: 80px;
+    font-size: 4vw;
 }
 
 .mainTitle h3 {
-    font-size: 25px;
+    font-size: 1.5vw;
 }
 
 /* FOR BOOKING CONTAINER */
@@ -189,15 +189,16 @@ header {
     flex-direction: column;
     position: relative;
     width: 80%;
-    gap: 0.5em;
+    gap: 1em;
 }
 
 .toAdjust {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .toFillup h3 {
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .inputBoxes {
@@ -401,7 +402,7 @@ header {
     right: 0;
     bottom: 0;
     opacity: 0;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
     filter: blur(1px);                      
     z-index: 5;
     transition: 0.3s ease-in;    
@@ -538,7 +539,7 @@ header {
 .rightDetails {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 50em;
     height: 200px;
     padding-top: 20px;
@@ -564,7 +565,7 @@ header {
 
 .rightDetails p {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* GET LATEST */
@@ -577,6 +578,8 @@ header {
 .submitContainer {
     display: flex;
 }
+
+/* SUBMIT BUTTON */
 
 .latestSubmitBox {
     width: 80%;
@@ -615,6 +618,10 @@ header {
 .listsCredits {
     display: flex;
     gap: 2em;
+}
+
+.listsCredits p {
+    white-space: nowrap;
 }
 
 .listsCredits a, .copyrightCredits{
