@@ -170,8 +170,8 @@ header {
     align-items: center;
     flex-direction: column;
     border-radius: 2px;
-    height: 550px;
-    width: 350px;
+    height: 35em;
+    width: 23em;
     gap: 2.5em;
 }
 
@@ -519,11 +519,18 @@ header {
 .iconsBorder {
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid #B4985e;
     border-radius: 50px;
     height: 50px;
     width: 50px;
     transition: 0.3s ease;
+}
+
+.iconsBorder a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .iconsBorder:hover {
